@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-export default function Form() {
+export default function Form({handleClose, setStateFromChild}) {
   const [formSubmitted, setFormSubmitted] = useState(false)
   const [validForm, setValidForm] = useState(false)
   const [errorMessage, setErrorMessage] = useState('')
@@ -34,10 +34,11 @@ export default function Form() {
       const data = await results.json()
       console.log(data)
 
+      
       setFormSubmitted(true)
       setErrorMessage('')
       setValidForm(true)
-      alert('Wow! Submitted')
+      handleClose()
     } catch (error) {
       console.error(error)
       setErrorMessage('there was an error submitting your comment' + error.toString())
@@ -53,7 +54,6 @@ export default function Form() {
   return (
     <div className='App'>
       <form onSubmit={formSubmit}>
-        <h1>Comments</h1>
         <label>Title</label>
         <input
           type='text'
@@ -85,6 +85,7 @@ export default function Form() {
         </select>
 
         <h3>{form.author}</h3>
+        <button onClick={()=> setStateFromChild('Hello Father')}>send stuff back to parent</button>
         {!formSubmitted && <button>Submit Form</button>}
         {errorMessage && (
           <h1>

@@ -1,20 +1,19 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
-  background-color: #282c34;
+  background-color: #282C34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,11 +22,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
-  color: #61dafb;
+  color: #61DAFB;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,10 +33,6 @@
     transform: rotate(360deg);
   }
 }
-
-
-
-/* form css */
 /* create new blog form */
 form {
   max-width: 400px;
@@ -52,7 +45,7 @@ form {
 }
  h3 {
   font-size: 20px;
-  color: #f1356d;
+  color: #F1356D;
   margin-bottom: 30px;
 }
  input, textarea, select {
@@ -62,17 +55,22 @@ form {
   border: 1px solid #ddd;
   box-sizing: border-box;
   display: block;
-} 
-
-button {
-  background: #f1356d;
+}
+/* button {
+  background: #F1356D;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
 }
-
 button:active {
   background: blue;
-}
+} */
+
+
+
+
+
+
+

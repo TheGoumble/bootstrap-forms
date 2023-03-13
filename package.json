@@ -2,8 +2,10 @@
   "name": "forms",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://TheGoumble.github.io/react-form/",
   "dependencies": {
     "bootstrap": "^5.2.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",

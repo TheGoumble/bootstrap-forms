@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+  height: 100%;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: 170;
+  transform: rotate(deg);
+  background-image: 
+    conic-gradient(from 160deg at 70px 168.5px, #FDC12D 0deg 90deg, transparent 90deg),
+    conic-gradient(from 21deg at 168px 71px, #FDC12D 0deg 90deg, transparent 90deg),
+    conic-gradient(from 21deg at 141px 141px, #FEEBAE 0deg 114deg, transparent 114deg),
+    conic-gradient(from -21deg at 96.5px 44px, #1483CA 0deg 131.5deg, transparent 131.5deg), 
+    conic-gradient(from -70deg at 43.5px 97px, #FDC12D 0deg 115.5deg, transparent 115.5deg), 
+    conic-gradient(from 134.5deg at 141px 141px, #1483CA 0deg 114.5deg, transparent 114deg),
+    conic-gradient(from 160deg at 43.5px 97px, #FEEBAE 0deg 130.5deg, transparent 120deg 360deg);
+  background-color: skyblue;
+  background-size: 195px 195px;
+  background-position: -30px -30px;
+  background-repeat: repeat, repeat;
+  position: relative;
+  min-height: 100vh;
 }

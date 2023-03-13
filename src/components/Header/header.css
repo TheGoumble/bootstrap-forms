@@ -1,0 +1,11 @@
+header {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+}
+
+#nav {
+  gap: 2rem;
+}

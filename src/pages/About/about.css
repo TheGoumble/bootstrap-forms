@@ -1,0 +1,16 @@
+#about {
+  padding-top: 2rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about > div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding: 2rem;
+  border-radius: 2rem;
+}

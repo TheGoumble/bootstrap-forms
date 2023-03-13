@@ -3,6 +3,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
   height: 4rem;
 }
 

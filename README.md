@@ -4,24 +4,24 @@ A Simple React App that implements fundementals of a Bootstrap Form that have cr
 
 # Screenshot
 
-![Screen shot of the demo](/src/bootstrap-form.png)
+![Screen shot of the demo](/src/bootstrap-forms.png)
 
 # Demo of the app
 
-✅[thegoumble.bootstrap-form](thegoumble.github.io/bootstrap-form/)
+✅[thegoumble.bootstrap-form](thegoumble.github.io/bootstrap-forms/)
 
 # Set up
 
 1. Copy and paste this command in the command line to download the repo
 
 ```bash
-$ git clone https://github.com/TheGoumble/bootstrap-form.git
+$ git clone https://github.com/TheGoumble/bootstrap-forms.git
 ```
 
-2. Go to the bootstrap-form directory
+2. Go to the bootstrap-forms directory
 
 ```bash
-$ cd bootstrap-form
+$ cd bootstrap-forms
 ```
 
 3. Install third-party packages and libraries
